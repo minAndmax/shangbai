@@ -9,29 +9,7 @@
 </head>
 <body>
 	
-	<input type="text" id="userName"/>
-	<input type="password" id="passowrd"/>
-	<input type="button" id="butt" value="登录"/>
+	<h1>欢迎来到上伯集团</h1>
 	
 </body>
-	
-	<script type="text/javascript">
-	
-		$("#butt").click(function(){
-			
-			var unm = $("#userName").val();
-			var pwd = $("#passowrd").val();
-			$.post("/user/login",
-				   {
-					userName : unm,
-					userPassWord : pwd
-				   },
-				   function(data){
-					alert(data);
-			})
-			
-		})
-	
-	</script>
-
 </html>

@@ -35,7 +35,8 @@ public class GlobalInterceptor implements HandlerInterceptor {
 
 		if (obj == null) {
 
-			response.sendRedirect("/index.jsp");
+			response.sendRedirect("/login.jsp");
+			
 			return false;
 
 		} else {

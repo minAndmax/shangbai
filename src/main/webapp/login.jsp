@@ -27,7 +27,11 @@
 					userPassWord : pwd
 				   },
 				   function(data){
-					alert(data);
+					   if(data.tipStatus == 1){
+						   window.location.href = "${pageContext.request.contextPath}/page/index";
+					   } else{
+						   alert("登录" + data.tipStatusContent);
+					   }
 			})
 			
 		})
