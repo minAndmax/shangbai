@@ -29,19 +29,19 @@ public class GlobalInterceptor implements HandlerInterceptor {
 		if ("/user/regist".equals(path)) {
 			return true;
 		}
-		
-		//对没有登录的请求进行拦截
+
+		// 对没有登录的请求进行拦截
 		JSONObject obj = (JSONObject) request.getSession().getAttribute(KeyWords.USERSESSION);
 
 		if (obj == null) {
-			
-			response.sendRedirect("index.jsp");
+
+			response.sendRedirect("/index.jsp");
 			return false;
-			
+
 		} else {
-			
+
 			return true;
-			
+
 		}
 	}
 

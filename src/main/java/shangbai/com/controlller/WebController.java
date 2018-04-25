@@ -6,16 +6,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequestMapping("page")
 public class WebController {
 	
-	@RequestMapping(value = "/page/{pageName}")
+	@RequestMapping(value = "{pageName}")
 	public ModelAndView pageUrl(@PathVariable("pageName") String pageName) {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName(pageName);
 		return mv;
 	}
 
-	@RequestMapping(value = "/page/{moduleName}/{pageName}")
+	@RequestMapping(value = "{moduleName}/{pageName}")
 	public ModelAndView pageUrl(@PathVariable("moduleName") String moduleName,
 			@PathVariable("pageName") String pageName) {
 		ModelAndView mv = new ModelAndView();
