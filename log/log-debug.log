@@ -1,0 +1,62 @@
+===2018-04-24 14:05:49.393 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime WHERE user_name = ? AND user_password = ? 
+===2018-04-24 14:05:49.408 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 14:08:21.515 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 14:08:21.529 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 14:08:21.564 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 14:10:31.923 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 14:10:31.937 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 14:10:31.952 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 14:14:35.889 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 14:14:35.890 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 14:14:35.892 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 15:17:58.597 [http-nio-8080-exec-10] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:17:58.598 [http-nio-8080-exec-10] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:17:58.599 [http-nio-8080-exec-10] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 0
+===2018-04-24 15:19:15.077 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:19:15.091 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:19:15.102 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 0
+===2018-04-24 15:20:23.718 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:20:23.719 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:20:23.725 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 15:27:08.791 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:27:08.792 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:27:08.793 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 15:32:34.621 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:32:34.622 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:32:34.623 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 15:38:54.237 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 15:38:54.251 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 15:38:54.264 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 15:48:47.305 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.register Line:159-==>  Preparing: INSERT INTO tb_user_login ( user_name, user_password, real_name, create_time ) VALUE ( ?, ?, ?, now() ) 
+===2018-04-24 15:48:47.323 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.register Line:159-==> Parameters: aaa(String), 123456(String), null
+===2018-04-24 15:48:47.376 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.register Line:159-<==    Updates: 1
+===2018-04-24 15:51:29.452 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.register Line:159-==>  Preparing: INSERT INTO tb_user_login ( user_name, user_password, real_name, create_time ) VALUE ( ?, ?, ?, now() ) 
+===2018-04-24 15:51:29.467 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.register Line:159-==> Parameters: bbb(String), E10ADC3949BA59ABBE56E057F20F883E(String), 李四(String)
+===2018-04-24 15:51:29.507 [http-nio-8080-exec-6] DEBUG shangbai.com.dao.UserMapper.register Line:159-<==    Updates: 1
+===2018-04-24 15:53:23.535 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.register Line:159-==>  Preparing: INSERT INTO tb_user_login ( user_name, user_password, real_name, create_time ) VALUE ( ?, ?, ?, now() ) 
+===2018-04-24 15:53:23.551 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.register Line:159-==> Parameters: nnn(String), E10ADC3949BA59ABBE56E057F20F883E(String), 发的规划(String)
+===2018-04-24 15:53:23.596 [http-nio-8080-exec-5] DEBUG shangbai.com.dao.UserMapper.register Line:159-<==    Updates: 1
+===2018-04-24 15:59:03.620 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.register Line:159-==>  Preparing: INSERT INTO tb_user_login ( user_name, user_password, real_name, create_time ) VALUE ( ?, ?, ?, now() ) 
+===2018-04-24 15:59:03.635 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.register Line:159-==> Parameters: qwe(String), E10ADC3949BA59ABBE56E057F20F883E(String), 水电费(String)
+===2018-04-24 15:59:03.670 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.register Line:159-<==    Updates: 1
+===2018-04-24 16:05:14.047 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 16:05:14.062 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: nnn(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 16:05:14.076 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 16:11:46.157 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.register Line:159-==>  Preparing: INSERT INTO tb_user_login ( user_name, user_password, real_name, create_time ) VALUE ( ?, ?, ?, now() ) 
+===2018-04-24 16:11:46.158 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.register Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String), 超级管理员(String)
+===2018-04-24 16:11:46.191 [http-nio-8080-exec-8] DEBUG shangbai.com.dao.UserMapper.register Line:159-<==    Updates: 1
+===2018-04-24 16:12:17.908 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 16:12:17.908 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 16:12:17.910 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 16:41:03.498 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 16:41:03.515 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 16:41:03.530 [http-nio-8080-exec-4] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 16:47:52.694 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 16:47:52.711 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 16:47:52.728 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 16:48:24.324 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 16:48:24.338 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 16:48:24.352 [http-nio-8080-exec-2] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1
+===2018-04-24 17:10:54.708 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==>  Preparing: SELECT user_id AS userId, user_name AS userName, real_name AS realName, create_time AS createTime FROM tb_user_login WHERE user_name = ? AND user_password = ? 
+===2018-04-24 17:10:54.722 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-==> Parameters: admin(String), E10ADC3949BA59ABBE56E057F20F883E(String)
+===2018-04-24 17:10:54.737 [http-nio-8080-exec-3] DEBUG shangbai.com.dao.UserMapper.userLogin Line:159-<==      Total: 1

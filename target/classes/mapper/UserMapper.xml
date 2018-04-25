@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="shangbai.com.dao.UserMapper">
+	
+	<sql id="fileList">
+		
+		user_id AS userId,
+		user_name AS userName,
+		real_name AS realName,
+		create_time AS createTime
+	</sql>
+	
+	<select id="userLogin" parameterType="shangbai.com.po.User" resultType="shangbai.com.po.User">
+	
+		SELECT
+			<include refid="fileList"></include>
+		FROM tb_user_login
+		<where>
+			user_name = #{userName} AND user_password = #{userPassWord}
+		</where>
+	
+	</select>
+	
+	<insert id="register" parameterType="shangbai.com.po.User">
+		
+		INSERT INTO tb_user_login
+			(
+				user_name,
+				user_password,
+				real_name,
+				create_time
+			)
+		VALUE
+			(
+				#{userName},
+				#{userPassWord},
+				#{realName},
+				now()
+			)
+		
+	</insert>
+	
+</mapper>
